@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shivam's Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css?family=Poppins:300,300i,400,400i,500,500i,600,600i,700,700i|Playfair+Display:400,400i,500,500i,600,600i,700,700i,900,900i"
+        rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Baloo+Bhai+2&family=Sono&family=Ubuntu+Mono:ital@1&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="left">My Portfolio</div>
+            <div class="right">
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#contact">Contact Me</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="firstSection" id="home">
+            <div class="leftSection">
+                <div>Hi,</div>
+                I'm <span class="text-purple">Shivam Gupta</span>
+                <div>A <span id="element"></span></div>
+                <div>
+                    <p>who loves clean, simple & unique design.</p>
+                </div>
+                <div class="buttons">
+                    <button class="btn" id="download-cv">Download CV</button>
+                </div>
+            </div>
+            <div class="rightSection">
+                <img src="img/bg1.jpeg" alt="">
+            </div>
+        </section>
+        <hr>
+        <section class="secondSection" id="about">
+            <span class="text-gray">What I have done so far</span>
+            <h1>Work Experience</h1>
+
+            <div class="box">
+                <div class="vertical">
+                    <img class="image-top" src="img/html.png" alt="">
+                    <div class="vertical-title">
+                        HTML Developer (2022-2023)
+                    </div>
+                    <div class="vertical-desc">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem, quasi aspernatur quo
+                        necessitatibus sint at amet! Voluptate ipsum adipisci laudantium accusamus natus.
+                    </div>
+                </div>
+                <div class="vertical">
+                    <img class="image-top" src="img/css.png" alt="">
+                    <div class="vertical-title">
+                        CSS Developer (2022-2023)
+                    </div>
+                    <div class="vertical-desc">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem, quasi aspernatur quo
+                        necessitatibus sint at amet! Voluptate ipsum adipisci laudantium accusamus natus.
+                    </div>
+                </div>
+                <div class="vertical">
+                    <img class="image-top" src="img/js.png" alt="">
+                    <div class="vertical-title">
+                        JS Developer (2023-2024)
+                    </div>
+                    <div class="vertical-desc">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem, quasi aspernatur quo
+                        necessitatibus sint at amet! Voluptate ipsum adipisci laudantium accusamus natus.
+                    </div>
+                </div>
+                <div class="vertical">
+                    <img class="image-top" src="img/react.png" alt="">
+                    <div class="vertical-title">
+                        Reactjs Developer (2024-2025)
+                    </div>
+                    <div class="vertical-desc">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem, quasi aspernatur quo
+                        necessitatibus sint at amet! Voluptate ipsum adipisci laudantium accusamus natus.
+                    </div>
+                </div>
+            </div>
+
+        </section>
+
+        <hr>
+
+        <section class="thirdSection" id="contact">
+            <div class="contact-details">
+                <h1>Don't be shy</h1>
+                <h4>Feel free to contact</h4>
+                <ul class="contact-list">
+                    <li><span>Shivam Gupta</span></li>
+                    <li><span>+91-6294399380</span></li>
+                    <li><span>shivamguptadgp@gmail.com</span></li>
+                </ul>
+            </div>
+            <div id="contact-box">
+                <form id="myForm" onsubmit="emailSend(); reset(); return false;">
+                    <div class="form-group">
+                        <label for="name">Name: </label>
+                        <input type="text" name="name" id="name" placeholder="Enter your name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">E-mail: </label>
+                        <input type="email" name="name" id="email" placeholder="Enter your e-mail" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Message: </label>
+                        <textarea name="message" id="message" cols="30" rows="10"></textarea>
+                    </div>
+                    <br>
+                    <input type="submit" value="Submit">
+                </form>
+            </div>
+        </section>
+
+    </main>
+
+    <footer>
+        <div class="footer">
+            <div class="footer-first">
+                <ul class="footer-unorderlist">
+                    <li><a href="https://wa.me/qr/J2HNM2RZPUMAP1" target="_blank"><img src="img/whatsapp.png"
+                                alt=""></a></li>
+                    <li><a href="https://www.instagram.com/sgupta9753/" target="_blank"><img src="img/instagram.png"
+                                alt=""></a></li>
+                    <li><a href="https://github.com/shivamg399" target="_blank"><img src="img/github.png" alt=""></a>
+                    </li>
+                    <li><a href="https://www.linkedin.com/in/shivam-gupta-66701a222/" target="_blank"><img
+                                src="img/linkedin.png" alt=""></a></li>
+                </ul>
+            </div>
+
+            <div class="footer-second">
+                <p>&copy; Copyrights My Portfolio. All rights reserved!</p>
+            </div>
+        </div>
+    </footer>
+
+
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
+    <script src="main.js"></script>
+    <!-- Setup and start animation! -->
+
+</body>
+
+</html>
