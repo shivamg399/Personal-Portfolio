@@ -6,7 +6,7 @@ var typed = new Typed('#element', {
 
 document.getElementById('download-cv').addEventListener('click', function () {
     // Replace with the path to your CV file
-    var fileUrl = 'https://drive.google.com/file/d/1KZcZSaEjuMT_0rS8ECKCnIb7dnrY7MTN/view?usp=drive_link';
+    var fileUrl = 'https://drive.google.com/file/d/1yCnFhkn8I-PD09LaU6g5lhA8VQ85kfx2/view?usp=drive_link';
 
     // Create a link element
     var a = document.createElement('a');
